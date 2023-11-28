@@ -54,7 +54,6 @@ body:
       label: Insights 
       description: You should create a [separate issue for each insight](https://github.com/Shopify/psn/issues/new?assignees=&labels=Insights+Library&projects=https%3A%2F%2Fgithub.com%2Forgs%2FShopify%2Fprojects%2F8809&template=capture_an_insight.yml&title=%5BProduct+or+Support+Stakeholder+team%5D+Descriptive+title+of+insight) that results from your study. We recommend identifying no more than (3) insights per research study. You should follow the format - Issue name - issue link. For more information on how to write issue name, see [PSN Insights Library Playbook](https://docs.google.com/document/d/17neVePhZKDHeTc-L-9AMVCzmCFak65MRMLsMA-2tSAg/edit)
 placeholder: Add your insights here 
-    validations:
       required: true
   - type: textarea
     id: product impact 
