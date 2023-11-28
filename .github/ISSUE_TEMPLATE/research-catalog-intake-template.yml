@@ -87,15 +87,15 @@ placeholder: Add your insights here
     attributes:
       label: Research Type
       Options:
-– Not selected
-- Vendor
-- UXer doing research
-- Support researcher
-- Product researcher
-- PM doing research
-- PCN (Product Commercial Network)
-- Market researcher
-- Data researcher
+	– Not selected
+	- Vendor
+	- UXer doing research
+	- Support researcher
+	- Product researcher
+	- PM doing research
+	- PCN (Product Commercial Network)
+	- Market researcher
+	- Data researcher
       default: 0
     validations:
       required: true
@@ -106,20 +106,20 @@ placeholder: Add your insights here
       description: Product area(s) covered by this research 
       options:
 	– Analytics and Data
-- Apps and Themes
-- Buyers
-- Competitive Landscape
-- Developer Experience
-- Finance
-- Inventory and Product Management 
-- Merchant experience 
-- Online Store 
-– Order Lifecycle
-- Partners
-- Recurring Research 
-- Segmentation
-- Shopify Marketing and Growth
-- Shopping and Sales Channel
+	- Apps and Themes
+	- Buyers
+	- Competitive Landscape
+	- Developer Experience
+	- Finance
+	- Inventory and Product Management 
+	- Merchant experience 
+	- Online Store 
+	– Order Lifecycle
+	- Partners
+	- Recurring Research 
+	- Segmentation
+	- Shopify Marketing and Growth
+	- Shopping and Sales Channel
           required: true
 type: checkboxes
     id: target group
@@ -128,38 +128,38 @@ type: checkboxes
       description: Product area(s) covered by this research 
       options:
 	– Buyer 
-- Churned merchant
-- Competitor
-- Creator
-- Dropshipper
-- Established merchant
-- First-party developer
-- Influencer
-- Large merchant
-– Mature merchant
-- Merchant
-- Multi-channel merchant
-- Non-seller
-- Omni-channel merchant
-- Partner
-- Plus merchants
-- Pre-commerce / aspirational merchant 
-- Re-platformer
-- Seller
-- Shop App user
-- Shop Pay user 
-- Shopifolk
-- Single-channel merchant
-– Small to medium sized business (SMB)
-- Staff
-- Third-party developer
+	- Churned merchant
+	- Competitor
+	- Creator
+	- Dropshipper
+	- Established merchant
+	- First-party developer
+	- Influencer
+	- Large merchant
+	– Mature merchant
+	- Merchant
+	- Multi-channel merchant
+	- Non-seller
+	- Omni-channel merchant
+	- Partner
+	- Plus merchants
+	- Pre-commerce / aspirational merchant 
+	- Re-platformer
+	- Seller
+	- Shop App user
+	- Shop Pay user 
+	- Shopifolk
+	- Single-channel merchant
+	– Small to medium sized business (SMB)
+	- Staff
+	- Third-party developer
           required: true
 type: checkboxes
     id: region
     attributes:
       label: Region
       options:
-	        – Americas 
+	  – Americas 
           - Asia-Pacific (APAC)
           - Asia
           - Australia
@@ -205,38 +205,38 @@ type: checkboxes
           - United States (US)
           - US East 
           - US West
-          required: true 
+	  required: true 
 type: checkboxes
     id: research method
     attributes:
       label: Research Method
       options:
 	– A/B test 
-- Accessibility audit
-- App analysis
-- Capability analysis 
-- Card sort 
-- Comparative analysis
-- Competitive research
-- Concept test
-- Data analysis
-– Diary study
-- Focus group
-- Foresight research
-- Interview 
-- Merchant empathy / exposure 
-- Mixed methods
-- Moderated test
-- Primary research 
-- Qualitative research 
-- Quantitative research
-- Secondary research
-- Statistical analysis
-- Support ticket dive
-- Survey
-– Tree test
-- Unmoderated test
-- Usability test
+	- Accessibility audit
+	- App analysis
+	- Capability analysis 
+	- Card sort 
+	- Comparative analysis
+	- Competitive research
+	- Concept test
+	- Data analysis
+	– Diary study
+	- Focus group
+	- Foresight research
+	- Interview 
+	- Merchant empathy / exposure 
+	- Mixed methods
+	- Moderated test
+	- Primary research 
+	- Qualitative research 
+	- Quantitative research
+	- Secondary research
+	- Statistical analysis
+	- Support ticket dive
+	- Survey
+	– Tree test
+	- Unmoderated test
+	- Usability test
           required: true
  - type: textarea
     id: keywords
