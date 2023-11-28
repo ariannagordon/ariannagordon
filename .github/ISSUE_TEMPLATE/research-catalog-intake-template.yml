@@ -44,7 +44,7 @@ body:
     id: report date 
     attributes:
       label: Report Date (Year - Quarter) 
-      description: Format should be as follows: YYYY - Q 
+      description: Format should be as follows - YYYY - Q 
       placeholder: ie. 2023 Q1 
     validations:
       required: false
