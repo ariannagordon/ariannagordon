@@ -40,7 +40,7 @@ body:
     id: report date 
     attributes:
       label: Report Date (Year - Quarter) 
-      description: Format should be as follows - YYYY - Q 
+      description: Format should be as follows - Year - Q 
       placeholder: ie. 2023 Q1 
     validations:
   - type: textarea
@@ -56,20 +56,6 @@ body:
       description: How did the findings from this study impact your product area?
       placeholder: The findings from my study impacted …  
       value: 
-    validations:
-  - type: input
-    id: report date 
-    attributes:
-      label: Report Date (Year - Quarter) 
-      description: Format should be as follows: YYYY - Q 
-      placeholder: ie. 2023 Q1 
-    validations:
-  - type: input
-    id: report date 
-    attributes:
-      label: Report Date (Year - Quarter) 
-      description: Format should be as follows: YYYY - Q 
-      placeholder: ie. 2023 Q1 
     validations:
  - type: dropdown
     id: research type 
