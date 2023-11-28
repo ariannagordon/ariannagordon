@@ -15,7 +15,6 @@ body:
       description: Use a descriptive name that someone without context can understand
       placeholder: ex. Buyer trust in partnerships
     validations:
-      required: false
   - type: input
     id: project files
     attributes:
@@ -23,7 +22,6 @@ body:
       description: If your research is 1 file, add the single file. If your research is 2+ files, add the file folder. Make sure that your file is open to all of Shopify for viewing. 
       placeholder: file link or folder link 
     validations:
-      required: false
   - type: input
     id: videobin url
     attributes:
@@ -31,7 +29,6 @@ body:
       description: If you have videos about your research, add them to [Videobin](https://videobin.shopify.io). If you have 1 video, add the link directly. If you have 2+ videos, create a Videobin playlist and add the link to the playlist.
       placeholder: videobin link 
     validations:
-      required: false
   - type: input
     id: dashboard prototype
     attributes:
@@ -39,7 +36,6 @@ body:
       description: If your research has a supporting prototype or dashboard, add the relevant link here. This includes Data Stories, Looker Studio, and Tableau. Make sure permission are viewable to all of Shopify.
       placeholder: dashboard or prototype link 
     validations:
-      required: false
   - type: input
     id: report date 
     attributes:
@@ -47,14 +43,12 @@ body:
       description: Format should be as follows - YYYY - Q 
       placeholder: ie. 2023 Q1 
     validations:
-      required: false
   - type: textarea
     id: insights 
     attributes:
       label: Insights 
       description: You should create a [separate issue for each insight](https://github.com/Shopify/psn/issues/new?assignees=&labels=Insights+Library&projects=https%3A%2F%2Fgithub.com%2Forgs%2FShopify%2Fprojects%2F8809&template=capture_an_insight.yml&title=%5BProduct+or+Support+Stakeholder+team%5D+Descriptive+title+of+insight) that results from your study. We recommend identifying no more than (3) insights per research study. You should follow the format - Issue name - issue link. For more information on how to write issue name, see [PSN Insights Library Playbook](https://docs.google.com/document/d/17neVePhZKDHeTc-L-9AMVCzmCFak65MRMLsMA-2tSAg/edit)
       placeholder: Add your insights here 
-       required: true
   - type: textarea
     id: product impact 
     attributes:
@@ -63,7 +57,6 @@ body:
       placeholder: The findings from my study impacted …  
       value: 
     validations:
-      required: true
   - type: input
     id: report date 
     attributes:
@@ -71,7 +64,6 @@ body:
       description: Format should be as follows: YYYY - Q 
       placeholder: ie. 2023 Q1 
     validations:
-      required: false
   - type: input
     id: report date 
     attributes:
@@ -79,7 +71,6 @@ body:
       description: Format should be as follows: YYYY - Q 
       placeholder: ie. 2023 Q1 
     validations:
-      required: false
  - type: dropdown
     id: research type 
     attributes:
@@ -96,7 +87,6 @@ body:
 	- Data researcher
       default: 0
     validations:
-      required: true
   - type: checkboxes
     id: product area
     attributes:
@@ -118,7 +108,6 @@ body:
 	- Segmentation
 	- Shopify Marketing and Growth
 	- Shopping and Sales Channel
-          required: true
 type: checkboxes
     id: target group
     attributes:
@@ -151,7 +140,6 @@ type: checkboxes
 	– Small to medium sized business (SMB)
 	- Staff
 	- Third-party developer
-          required: true
 type: checkboxes
     id: region
     attributes:
@@ -235,7 +223,6 @@ type: checkboxes
 	– Tree test
 	- Unmoderated test
 	- Usability test
-          required: true
  - type: textarea
     id: keywords
     attributes:
